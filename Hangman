@@ -1,0 +1,10 @@
+#hangman
+word = "apple"
+guess = input("Guess a letter: ")
+
+if guess in word:
+    print("Correct!")
+else:
+    print("Wrong!")
+
+print("The word was:", word)
